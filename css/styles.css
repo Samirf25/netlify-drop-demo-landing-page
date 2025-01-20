@@ -15,8 +15,8 @@
   --color-gray-L200: #F2F5F8;
   --color-gray-D200: #A3A8AC;
 
-  --color-yellow-Y500: #FFB916;
-  --color-yellow-Y400: #FFCF50;
+  --color-solarized-base2: #eee8d5;
+  --color-solarized-base1: #93a1a1;
 
   --color-red-R600: #DB4648;
 
@@ -40,8 +40,8 @@
   }
 
   :root:not([data-user-color-scheme]) {
-    --background: var(--color-teal-T1000);
-    --background-alt: var(--color-teal-T900);
+    --background: var(--csolarized-base2);
+    --background-alt: var(--csolarized-base1);
     --text-color: var(--color-gray-L200);
     --border-color: var(--color-teal-T800);
     --mode-icon: '🌕';
